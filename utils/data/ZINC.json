@@ -1,0 +1,62 @@
+{
+    "name": "ZINC",
+    "url": "https://raw.githubusercontent.com/aspuru-guzik-group/chemical_vae/master/models/zinc_properties/250k_rndm_zinc_drugs_clean_3.csv",
+    "filename": "250k_rndm_zinc_drugs_clean_3.csv",
+    "unzip": false,
+    "min_length": 2,
+    "max_length": 8,
+    "index_col": false,
+    "random_sample": null,
+    "atoms": [
+        "C",
+        "F",
+        "N",
+        "O",
+        "Other"
+    ],
+    "bonds": [
+        "SINGLE",
+        "DOUBLE",
+        "TRIPLE"
+    ],
+    "rings": [
+        "Tri",
+        "Quad",
+        "Pent",
+        "Hex"
+    ],
+    "ring_sizes": [
+        3,
+        4,
+        5,
+        6
+    ],
+    "drop": [],
+    "column_order": [
+        "smiles",
+        "fragments",
+        "n_fragments",
+        "C",
+        "F",
+        "N",
+        "O",
+        "Other",
+        "SINGLE",
+        "DOUBLE",
+        "TRIPLE",
+        "Tri",
+        "Quad",
+        "Pent",
+        "Hex",
+        "logP",
+        "mr",
+        "qed",
+        "SAS"
+    ],
+    "properties": [
+        "qed",
+        "logP",
+        "SAS",
+        "mr"
+    ]
+}

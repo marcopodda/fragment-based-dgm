@@ -1,0 +1,64 @@
+{
+    "name": "PCBA",
+    "url": "https://s3-us-west-1.amazonaws.com/deepchem.io/datasets/molnet_publish/pcba.zip",
+    "filename": "pcba.csv",
+    "unzip": true,
+    "min_length": 2,
+    "max_length": 9,
+    "index_col": false,
+    "random_sample": null,
+    "atoms": [
+        "C",
+        "F",
+        "N",
+        "O",
+        "Other"
+    ],
+    "bonds": [
+        "SINGLE",
+        "DOUBLE",
+        "TRIPLE"
+    ],
+    "rings": [
+        "Tri",
+        "Quad",
+        "Pent",
+        "Hex"
+    ],
+    "ring_sizes": [
+        3,
+        4,
+        5,
+        6
+    ],
+    "drop": [
+        "mol_id"
+    ],
+    "column_order": [
+        "smiles",
+        "fragments",
+        "n_fragments",
+        "C",
+        "F",
+        "N",
+        "O",
+        "Other",
+        "SINGLE",
+        "DOUBLE",
+        "TRIPLE",
+        "Tri",
+        "Quad",
+        "Pent",
+        "Hex",
+        "logP",
+        "mr",
+        "qed",
+        "SAS"
+    ],
+    "properties": [
+        "qed",
+        "logP",
+        "SAS",
+        "mr"
+    ]
+}
