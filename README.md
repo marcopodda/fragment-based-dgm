@@ -1,5 +1,7 @@
 # Code for the paper "A Deep Generative Model for Fragment-Based Molecule Generation" (AISTATS 2020)
 
+Link to the paper: [arXiv](https://arxiv.org/abs/2002.12826)
+
 ### Installation
 
 Run:
@@ -100,4 +102,4 @@ Check out `python manage.py postprocess --help` to see all available options.
 
 ### Samples
 
-20k SMILES samples obtained by the 4 variants of the model are placed in the folder SAMPLES.
+You can find the 20k SMILES samples used in the paper for the analysis in the SAMPLES folder.
