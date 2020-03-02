@@ -35,7 +35,7 @@ After preprocessing, you can train the model running:
 
 `python manage.py train --dataset <DATASET_NAME>`
 
-where `<DATASET_NAME>` is defined as above.
+where `<DATASET_NAME>` is defined as described above.
 
 If you wish to train using a GPU, add the `--use_gpu` option.
 
@@ -99,6 +99,14 @@ where `<RUN_PATH>` is obtained as described above.
 
 Check out `python manage.py postprocess --help` to see all available options.
 
+
+### Plotting
+
+If you wish to obtain similar figures as the ones in the paper on your samples, just run:
+
+`python manage.py plot --run <RUN_PATH>`
+
+where `<RUN_PATH>` is defined as described above.
 
 ### Samples
 
