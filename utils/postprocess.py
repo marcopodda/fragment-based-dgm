@@ -91,7 +91,7 @@ def score_samples(samples, dataset, calc=True):
     unique_mask = mask_unique_molecules(smiles)
 
     scores = []
-    if calc: 
+    if calc:
         start = time.time()
         print("Start scoring...")
         validity_score = ratio(valid_mask)
@@ -129,7 +129,7 @@ def postprocess_samples(config, use_train=False, n_jobs=-1):
         samples = add_property(samples, prop, n_jobs)
 
     samples = samples[info['column_order']]
-    samples['who'] = 'F2M'
+    samples['who'] = 'OURS'
     dataset['who'] = info['name']
 
     data = [samples, dataset]
