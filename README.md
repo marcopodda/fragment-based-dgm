@@ -7,6 +7,7 @@ Run:
 `source scripts/install.sh`
 
 This will take care of installing all required dependencies.
+If you have trouble during the installation, try running each line of the `scripts/install.sh` file separately (one by one) in your shell.
 
 The only required dependency is the latest Conda package manager, which you can download with the Anaconda Python distribution [here](https://www.anaconda.com/distribution/).
 
