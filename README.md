@@ -35,7 +35,7 @@ After preprocessing, you can train the model running:
 
 `python manage.py train --dataset <DATASET_NAME>`
 
-where `<DATASET_NAME> is defined as above.`
+where `<DATASET_NAME>` is defined as above.
 
 If you wish to train using a GPU, add the `--use_gpu` option.
 
