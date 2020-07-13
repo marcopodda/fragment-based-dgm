@@ -1,6 +1,6 @@
 # Code for the paper "A Deep Generative Model for Fragment-Based Molecule Generation" (AISTATS 2020)
 
-Link to the paper: [arXiv](https://arxiv.org/abs/2002.12826)
+Links:  [Paper](http://proceedings.mlr.press/v108/podda20a/podda20a.pdf) - [AISTATS 2020 proceedings](http://proceedings.mlr.press/v108/)
 
 ### Installation
 
