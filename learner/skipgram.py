@@ -131,7 +131,7 @@ def train_embeddings(config, data):
         # first word embedding
         w2v = Word2Vec(
             sentences,
-            size=embed_size,
+            vector_size=embed_size,
             window=embed_window,
             min_count=1,
             negative=5,
